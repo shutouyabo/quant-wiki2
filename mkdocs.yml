@@ -14,7 +14,8 @@ copyright: Copyright &copy; 2025 LLMQuant Team
 
 # Navigation
 nav:
-  - 简介: index.md
+  - 简介: 
+    - index.md
     - 关于项目: index.md
     - 如何参与: contribute.md
     - 常见问题: FAQ.md
