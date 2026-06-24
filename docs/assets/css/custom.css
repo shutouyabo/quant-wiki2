@@ -1,12 +1,10 @@
-/* 全局默认导航字重恢复正常 */
+/* 全局导航默认常规字重 */
 .md-nav__label {
   font-weight: 400;
 }
 
-/* 匹配需要加粗的导航标题，多个用逗号分隔 */
-.md-nav__label:contains("简介"),
-.md-nav__label:contains("基本概念"),
-.md-nav__label:contains("入门教程"),
-.md-nav__label:contains("学术论文") {
+/* 多个需要加粗的一级导航，逗号分隔 */
+.md-nav__link:has(.md-nav__label:is(:text("简介"))) .md-nav__label,
+.md-nav__link:has(.md-nav__label:is(:text("基本概念"))) .md-nav__label {
   font-weight: 700 !important;
 }
