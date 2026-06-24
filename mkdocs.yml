@@ -8,12 +8,13 @@ repo_name: LLMQuant/quant-wiki
 repo_url: https://github.com/LLMQuant/quant-wiki
 edit_uri: edit/main/docs/
 
-# Copyright
-copyright: Copyright &copy; 2025 LLMQuant Team
-
 
 extra_css:
   - assets/css/custom.css
+
+# Copyright
+copyright: Copyright &copy; 2025 LLMQuant Team
+
 
 
 # Navigation
