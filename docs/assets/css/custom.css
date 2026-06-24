@@ -1,10 +1,8 @@
-/* 全局导航默认常规字重 */
-.md-nav__label {
-  font-weight: 400;
+/* 第1个一级导航：简介 */
+.md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link > .md-nav__label {
+  font-weight: 700 !important;
 }
-
-/* 多个需要加粗的一级导航，逗号分隔 */
-.md-nav__link:has(.md-nav__label:is(:text("简介"))) .md-nav__label,
-.md-nav__link:has(.md-nav__label:is(:text("基本概念"))) .md-nav__label {
+/* 第2个一级导航：基本概念 */
+.md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link > .md-nav__label {
   font-weight: 700 !important;
 }
