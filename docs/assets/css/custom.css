@@ -1,0 +1,12 @@
+/* 全局默认导航字重恢复正常 */
+.md-nav__label {
+  font-weight: 400;
+}
+
+/* 匹配需要加粗的导航标题，多个用逗号分隔 */
+.md-nav__label:contains("简介"),
+.md-nav__label:contains("重要文档"),
+.md-nav__label:contains("快速上手"),
+.md-nav__label:contains("开发指南") {
+  font-weight: 700 !important;
+}
